@@ -1,0 +1,23 @@
+[sample-profile]
+type = s3
+provider = Other
+access_key_id = ****
+secret_access_key = ****
+region = SAMPLE_REGION
+endpoint = SAMPLE_URL
+upload_cutoff = 8Mi
+chunk_size = 8Mi
+disable_checksum = true
+upload_concurrency = 10
+force_path_style = false
+list_version = 2
+no_check_bucket = true
+no_head = false
+no_head_object = false
+no_system_metadata = false
+use_multipart_uploads = true
+description = SAMPLE_PROVIDER
+use_multipart_etag = true
+might_gzip = false
+use_accept_encoding_gzip = false
+use_already_exists = true
