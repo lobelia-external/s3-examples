@@ -1,0 +1,14 @@
+# AWS CLI examples
+
+Steps:
+
+1. Install AWS CLI
+1. Configure an AWS credentials profile. See:
+   1. <https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html>
+1. Set your specific AWS credentials profile (`AWS_CREDENTIALS_PROFILE`)
+1. Set your specific S3 endpoiunt URL (`ENDPOINT_URL`)
+1. Set your specific S3 bucket name (`BUCKET_NAME`)
+1. Set your specific test file (`TEST_FILE`) or dir (`TEST_DIR`)
+1. Test script
+1. Remove `--dryrun` to actually download/upload files
+1. Adapt the script to your needs
