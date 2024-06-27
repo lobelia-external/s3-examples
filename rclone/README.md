@@ -8,9 +8,10 @@ Steps:
    1. `secret_access_key`
    1. `region`
    1. `endpoint`
-1. Set your specific S3 bucket name (`BUCKET_NAME`)
-1. Set your specific test file (`TEST_FILE`) or dir (`TEST_DIR`)
-1. Set your specific rclone remote (`RCLONE_REMOTE`)
-1. Test script
+1. Configure the test scripts `download.sh` and/or `upload.sh` with the following:
+   1. Set your specific S3 bucket name (`BUCKET_NAME`)
+   1. Set your specific test file (`TEST_FILE`) or dir (`TEST_DIR`)
+   1. Set your specific rclone remote (`RCLONE_REMOTE`)
+1. Run test scripts `download.sh` and/or `upload.sh`
 1. Remove `--dry-run` to actually download/upload files
 1. Adapt the script to your needs
